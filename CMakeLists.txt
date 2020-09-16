@@ -10,6 +10,8 @@ if(POLICY CMP0042)
   cmake_policy(SET CMP0042 NEW) # Set MACOSX_RPATH=YES by default
 endif()
 
+cmake_policy(SET CMP0077 NEW)
+
 # Add path for custom modules
 set(CMAKE_MODULE_PATH
   "${CMAKE_CURRENT_SOURCE_DIR}/cmake"
